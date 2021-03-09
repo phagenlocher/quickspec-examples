@@ -112,7 +112,7 @@ treeSig1 = [
   con "insert" (insert :: OrdA -> Tree OrdA -> Tree OrdA)
   ]
 
-{- A real challange... -}
+{- A real challenge... -}
 treeSig2 :: [Sig]
 treeSig2 = [
   monoTypeWithVars ["a", "b", "c"] (Proxy :: Proxy OrdA),
